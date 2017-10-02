@@ -9,19 +9,15 @@ public class Main {
     String usernum1 = scanner.nextLine();
     System.out.println("Pleas input your second number");
     String usernum2 = scanner.nextLine();
-    System.out.println(usernum1 + usernum2);
+   // System.out.println(usernum1 + usernum2);
     double operand1 = Double.parseDouble(usernum1);
     double operand2 = Double.parseDouble(usernum2);
     double division;
-    double difference;
+    double difference = operand1 - operand2;
     double remainder;
     System.out.println(operand1);
     double sum = (operand1 + operand2);
-    if(operand1>operand2){
-        difference = operand1-operand2;
-    }else{
-        difference = operand2-operand1;
-    }
+
         if(operand1>operand2){
              division = operand1/operand2;
         }else{
